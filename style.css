@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap");
+:root {
+  --font-color: #eee;
+  --font-color-dark: #aaa;
+  --border-color: #222;
+  --background-light: rgba(0, 0, 0, 0.6);
+  --background-light-hover: rgba(99, 99, 99, 0.4);
+  --background-dark: rgba(0, 0, 0, 0.9);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/baratie\ .png);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  font-family: Pirata One;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 70px;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons-style {
+  padding: 0.8rem;
+  font-weight: 100;
+  font-family: Pirata One;
+  font-size: 30px;
+  width: 6rem;
+  color: whitesmoke;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.buttons-style:hover {
+  transform: translateY(-10%);
+}
+
+.buttons-style.active {
+  border-bottom: 1px solid white;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.9);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  margin-top: 3rem;
+  padding: 3rem;
+  border: 0.2px solid #222;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: Merienda;
+  color: #aaa;
+}
+
+.imgS {
+  height: 280px;
+  border-radius: 100%;
+  width: auto;
+  border: 0.2px solid #222;
+}
+
+.imgM {
+  width: 560px;
+  border-radius: 10px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menuContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 4rem;
+}
+.ramenCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 10px;
+  color: #424549;
+  border: 0.2px solid #424549;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 5.2rem;
+  color: white;
+  font-family: Merienda;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.linkElement {
+  margin-top: 0.4rem;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #444;
+}
