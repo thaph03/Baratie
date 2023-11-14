@@ -1,5 +1,5 @@
-# Restaurant-Page
-Simple Restaurant Page made with HTML, CSS and JS using Vite as the module bundler!
+# Baratie
+Baratie is a simple Restaurant Page made with HTML, CSS and JS using Vite as the module bundler!
 (Finished 11.13.2023)
 _________________
 Steps to set up!
